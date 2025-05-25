@@ -1,2 +1,2 @@
-# DataScience
-Repository for Data Science Unit
+# olympics-data-project
+Repository for olympics-data-project
