@@ -43,6 +43,6 @@
 # Task 1: Filtering Basics
 ## Reflect:
 ### 1. What do these filters do?
--
+-Filter for female athletes only and filter for athletes older than 35.
 ### 2. How many rows were returned? Use len().
 -
