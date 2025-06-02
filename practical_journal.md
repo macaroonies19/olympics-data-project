@@ -1,5 +1,7 @@
+# ***Week 2***
+
 # Activity 1: Describe the Dataset
-### 1. How many columns are in the dataset?
+## 1. How many columns are in the dataset?
 - There are 15 Coloumns in the dataset.
 ## 2. Name 3 of them and explain what they represent.
 - Name: Represents the persons name.
@@ -35,3 +37,12 @@
 - I had trouble setting up Pandas due to the connection problems, but I managed to download it later at home with a Python 3 command line the teacher helped me with.
 ### What’s something you'd like to analyse next?
 - I think analysing the stock market would be interesting and useful.
+
+# ***Week 3***
+
+# Task 1: Filtering Basics
+## Reflect:
+### 1. What do these filters do?
+-
+### 2. How many rows were returned? Use len().
+-
