@@ -1,12 +1,11 @@
 import pandas as pd
 
-# Load the dataset
 df = pd.read_csv("athlete_events.csv")
 
-print(df['Sport'].value_counts().head())
-print(df['Sex'].value_counts())
+# Filter for female athletes only
+female_athletes = df[df['Sex'] == 'F']
+print(female_athletes.head())
 
-print(df.describe())
-
-print(df['NOC'].nunique())
-print(df['NOC'].unique())
+# Filter for athletes older than 35
+older_athletes = df[df['Age'] > 35]
+print(older_athletes[['Name', 'Age', 'Sport']].head())
