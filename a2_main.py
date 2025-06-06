@@ -1,5 +1,5 @@
 import pandas as pd
-
+#week 2 work
 # Load the dataset
 df = pd.read_csv("athlete_events.csv")
 
