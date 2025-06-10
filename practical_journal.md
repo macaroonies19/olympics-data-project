@@ -50,4 +50,26 @@
 # Task 2: Combine Filters
 ## Create a new filter
 ### 1. Write a filter for athletes from Australia in Swimming
-- 
+- aussie_swimmers = df[(df['Team'] == 'Australia') & (df['Sport'] == 'Swimming')]
+
+  print(aussie_swimmers.head()) # First 5 rows of atheltes from Australia in swimming
+
+# Task 3: Sorting Data
+## Apply the skill
+### 1. Sort by Height then Weight and display top 10.
+- #Sort by height
+
+  sorted_by_height = df.sort_values(by='Height', ascending=False)
+
+  print(sorted_by_height[['Name', 'Height', 'Sport']].head())
+
+- #Sort by weight
+
+  sorted_by_weight = df.sort_values(by='Weight', ascending=False)
+
+  print(sorted_by_weight[['Name', 'Weight', 'Sport']].head())
+
+  # Task 4: Grouping Data
+  ## Apply the skill
+  ### 1. Which sport had the most female participants?
+  - * had the most female participants.

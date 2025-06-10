@@ -13,3 +13,17 @@
 - I had trouble downloading pandas, but with some help I managed to successfully download it later.
 
 ## Week 2
+### 1️⃣ What I Learned This Week
+- 
+### 2️⃣ What I Practiced / Built
+- 
+## 3️⃣ What Was difficult and needs more work
+- I had trouble 
+
+## Week 3
+### 1️⃣ What I Learned This Week
+- 
+### 2️⃣ What I Practiced / Built
+- 
+## 3️⃣ What Was difficult and needs more work
+- I had trouble 
