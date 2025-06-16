@@ -51,8 +51,8 @@
 ## Create a new filter
 ### 1. Write a filter for athletes from Australia in Swimming
 - aussie_swimmers = df[(df['Team'] == 'Australia') & (df['Sport'] == 'Swimming')]
-
-  print(aussie_swimmers.head()) # First 5 rows of atheltes from Australia in swimming
+  print(aussie_swimmers.head()) 
+  print("Total rows:", len(aus_swimmers)) # Atheltes from Australia in swimming
 
 # Task 3: Sorting Data
 ## Apply the skill
@@ -69,7 +69,20 @@
 
   print(sorted_by_weight[['Name', 'Weight', 'Sport']].head())
 
-  # Task 4: Grouping Data
-  ## Apply the skill
+# Task 4: Grouping Data
+## Apply the skill
+  females_per_sport = df[df['Sex'] == 'F']['Sport'].value_counts()
+  print(females_per_sport.head(1))
   ### 1. Which sport had the most female participants?
-  - * had the most female participants.
+-  had the most female participants.
+
+# Task 5: Aggregating with groupby()
+## Challenge: Create a new group that shows average weight by Sex and Sport:
+- avg_weight = df.groupby(['Sport', 'Sex'])['Weight'].mean().sort_values(ascending=False)
+  print(avg_weight.head())
+# Task 6: Exporting a Subset
+## Try exporting:
+### All athletes under 18
+- 
+### All athletes who won a gold medal
+- 
