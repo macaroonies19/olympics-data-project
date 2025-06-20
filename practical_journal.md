@@ -83,6 +83,20 @@
 # Task 6: Exporting a Subset
 ## Try exporting:
 ### All athletes under 18
-- 
+- #Filter under 18s and save to new CSV
+  under18s = df[df['Age'] < 18]
+  under18s.to_csv('under18_athletes.csv', index=False)
 ### All athletes who won a gold medal
-- 
+- #Filter gold medalists and save to new CSV
+  goldmedal = df[df['Medal'] == 'Gold']
+  goldmedal.to_csv('goldmedals_athletes.csv', index=False)
+
+# 📚 Reflection Journal
+### 1. What was the easiest filtering task and why?
+- Filtering for gold medals because I only had to only change a few things from the draft given.
+### 2. What was the most difficult grouping or sorting task?
+- Probably the australian swimmers one as I was on for it a while and needed help for it.
+### 3. What trends surprised you in the Olympic data?
+- That there are athletes that are only 15 years old.
+### 4. What kinds of real-world questions could this kind of analysis help answer?
+- What countries win the most gold medals, which sports are more dominated by males or females, ect.
