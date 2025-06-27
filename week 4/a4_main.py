@@ -8,3 +8,30 @@ print(df.isnull().sum())
 # Drop rows missing both height and weight
 df_cleaned = df.dropna(subset=['Height', 'Weight'])
 print(df_cleaned.shape)
+
+# Count missing values in each column
+print(df.isnull().sum())
+
+print("")
+print("")
+print("")
+
+
+# Drop rows missing both height and weight
+df_cleaned = df.dropna(subset=['Height', 'Weight'])
+print(df_cleaned.shape)
+
+print("")
+print("")
+print("")
+
+# Fill missing medals with 'None'
+df_cleaned.loc[:, 'Medal'] = df_cleaned['Medal'].fillna('None')
+
+# Fill missing ages with average age
+avg_age = df_cleaned['Age'].mean()
+df_cleaned.loc[:, 'Age'] = df_cleaned['Age'].fillna(avg_age)
+
+print(df_cleaned.head())
+print(df_cleaned.median())
+print(df_cleaned.mean())
