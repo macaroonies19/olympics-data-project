@@ -100,3 +100,18 @@
 - That there are athletes that are only 15 years old.
 ### 4. What kinds of real-world questions could this kind of analysis help answer?
 - What countries win the most gold medals, which sports are more dominated by males or females, ect.
+
+# Task 1: Check for Missing Data
+### Which 3 columns have the most missing values?
+- Medal with 231333 missing values, Weight with 62875 missing values, and Height with 60171 missing values.
+### Why might this happen in real-world Olympic data?
+- Because with the large amount of data, mistakes may be made or data can be lost easily.
+
+# Task 2: Drop Rows with Critical Missing Data
+## Challenge:
+### How many rows did you remove?
+- 206868 in total.
+### What are the pros and cons of dropping data?
+- To make the charts cleaner.
+
+# Task 3: Fill Missing Values (e.g. 'Medal')
