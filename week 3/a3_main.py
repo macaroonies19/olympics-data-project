@@ -45,12 +45,12 @@ print(avg_weight.head())
 
 # Filter gymnasts and save to new CSV
 gymnasts = df[df['Sport'] == 'Gymnastics']
-gymnasts.to_csv('gymnastics_athletes.csv', index=False)
+gymnasts.to_csv('week 3/gymnastics_athletes.csv', index=False)
 
 # Filter under 18s and save to new CSV
 under18s = df[df['Age'] < 18]
-under18s.to_csv('under18_athletes.csv', index=False)
+under18s.to_csv('week 3/under18_athletes.csv', index=False)
 
 # Filter gold medalists and save to new CSV
 goldmedal = df[df['Medal'] == 'Gold']
-goldmedal.to_csv('goldmedals_athletes.csv', index=False)
+goldmedal.to_csv('week 3/goldmedals_athletes.csv', index=False)
