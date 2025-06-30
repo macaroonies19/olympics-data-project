@@ -115,3 +115,19 @@
 - To make the charts cleaner.
 
 # Task 3: Fill Missing Values (e.g. 'Medal')
+## Add:
+### .median() as well as .mean() and compare the results:
+- The median and mean for age is only a 1.06 age difference, and an even lower difference between the means and medians of height and weight.
+
+# Task 4: Detect Inconsistent Data
+## Extra spaces or capitalisation issues
+- Didn't see any.
+## Typos or strange values
+- Didn't see any.
+
+# Task 5 Validate and Describe Cleaned Data
+## Reflection:
+### Did cleaning improve the dataset?
+- It clumped up lows, averages, and highs, making it look kind of weird, but easier to collect data.
+### What questions could now be answered more confidently?
+- Statistical questions and questions about averages, lows, and highs.
